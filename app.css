@@ -13,8 +13,48 @@ body {
 
 }
 
+#heading_group {
+    font-weight:400;
+    font-size: 4 rem;
+}
+.blurb h2 {
+    color: red;
+    font-weight: 200;
+    font-size: 2.5 rem;
+
+}
+.content{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.blurb p {
+    color: chocolate;
+    line-height: 2.0;
+    /* margin: 10px; */
+    padding: 10px;
+}
+
+
+
+#heading_group span {
+    color:rebeccapurple;
+}
+
 .navbar-brand {
    
     font-size: 1.5rem;
     font-weight: 100;
+}
+
+@media (max_width:1200px){
+    #heading_group h2 {
+        font-weight:400;
+        font-size: 3 rem;
+    }
+}
+
+.navbar.scrolled {
+    background-color: purple;
+    transition: background 2s;
 }
